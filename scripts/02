@@ -1,4 +1,7 @@
 #!/bin/bash
 echo -n "login a supprimer : "
 read login
+ps -fp $(pgrep -u "$login")
+killall -KILL -u "$login"
+userdel -r "$login"
 usermod --lock --expiredate 1970-01-02 "$login"
