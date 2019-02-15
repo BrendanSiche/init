@@ -1,0 +1,3 @@
+Les commandes service --status-all ou sysv-rc-conf donnent la liste des services se lancant au demarage
+
+Ce sont des daemons

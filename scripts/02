@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -n "login a supprimer : "
+read login
+usermod --lock --expiredate 1970-01-02 "$login"

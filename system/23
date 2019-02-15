@@ -1,0 +1,2 @@
+Pour se connecter en sesison graphique il suffit de passer par le display manager de debian, et pour une connexion en ssh
+ssh login@localhost

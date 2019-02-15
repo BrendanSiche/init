@@ -1,0 +1,1 @@
+Cron est un daemon qui se charge d'executer des commandes de facon regulieres, en se basant sur le fichier crontab de l'user (/etc/crontab)

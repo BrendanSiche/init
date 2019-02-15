@@ -1,0 +1,4 @@
+#!/bin/bash
+broadcast=$(ifconfig en0 | grep "broadcast" | awk '{print $6}')
+echo "Broadcast : $broadcast"
+ping $broadcast | arp -a | grep "42.fr" | cut -d " " -f2 | sed "s/[()]//g"
