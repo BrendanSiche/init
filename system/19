@@ -1,3 +1,28 @@
-Les commandes service --status-all ou sysv-rc-conf donnent la liste des services se lancant au demarage
+alsa-utils                0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+anacron                   0:off  1:on   2:on   3:on   4:on   5:on   6:off
+avahi-daemon              0:off  1:off  2:on   3:on   4:on   5:on   6:off
+console-setup.sh          0:off  1:off  2:on   3:on   4:on   5:on   6:off
+cron                      0:off  1:off  2:on   3:on   4:on   5:on   6:off
+cups                      0:off  1:off  2:on   3:on   4:on   5:on   6:off
+cups-browsed              0:off  1:off  2:on   3:on   4:on   5:on   6:off
+dbus                      0:off  1:off  2:on   3:on   4:on   5:on   6:off
+hddtemp                   0:off  1:off  2:on   3:on   4:on   5:on   6:off
+hwclock.sh                0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+keyboard-setup.sh         0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+kmod                      0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+lightdm                   0:off  1:off  2:on   3:on   4:on   5:on   6:off
+lm-sensors                0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+network-manager           0:off  1:off  2:on   3:on   4:on   5:on   6:off
+networking                0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+pppd-dns                  0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+procps                    0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+rcS                       0:off  1:off  2:off  3:off  4:off  5:off  6:off
+rsync                     0:off  1:off  2:on   3:on   4:on   5:on   6:off
+rsyslog                   0:off  1:off  2:on   3:on   4:on   5:on   6:off
+saned                     0:off  1:off  2:on   3:on   4:on   5:on   6:off
+speech-dispatcher         0:off  1:off  2:on   3:on   4:on   5:on   6:off
+ssh                       0:off  1:off  2:on   3:on   4:on   5:on   6:off
+udev                      0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
+x11-common                0:off  1:off  2:off  3:off  4:off  5:off  6:off  S:on
 
 Ce sont des daemons

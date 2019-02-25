@@ -1,3 +1,3 @@
-Ajouter la ligne suivante a /etc/hosts
+Recuperer les droits admins(via sudo, ou en se loggant sur le compte root) puis ajouter la ligne suivante a /etc/hosts
 
 46.19.122.85            intra.42.fr
